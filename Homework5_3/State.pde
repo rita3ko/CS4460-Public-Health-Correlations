@@ -124,36 +124,7 @@ public class State{
   public int getWorkers(){
      return data.getWorkers();
   }
-}
 
-public class StateComparator implements Comparator<State> {
-    boolean numOrPerc;
-    int dataType;
-    public StateComparator(boolean numOrPerc, int dataType){
-        this.numOrPerc= numOrPerc;
-        this.dataType= dataType;
-        
-
-    }
-    
-    @Override
-    public int compare(State state1, State state2) {  //number or percentage
-        int answer = 0;
-        float[] data1 = (state1.getStateData().getDataArray());
-        float[] data2 = (state2.getStateData().getDataArray());
-        
-        
-
-       // if(this.numOrPerc){
-          answer = (int)(data2[dataType]-data1[dataType]);
-       /*}
-        else{
-          int worker1 = state.1.getWorkers();
-          int worker2 = state.2.getWorkers();
-          answer = data2[dataType]/worker1 - data1[dataType]/worker2;
-        }*/
-       return answer;
-    }
 }
 
 

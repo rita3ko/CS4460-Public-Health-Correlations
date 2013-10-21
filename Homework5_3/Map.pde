@@ -108,17 +108,15 @@ public class Map{
   public void mousePressed(){
     for(State st: stateList){
       if (st.highlight){
-        draw.setWindowState(st);
+     
         //return st;
       }
     }
    // return null;
   }
   
-   public void drawMap(){
-   /* fill(background);
-    noStroke();
-    rect(0,0, mapWidth, 600);*/
+ public void drawMap(){
+
     State selected = null;
     
     for (State st: stateList){
@@ -127,9 +125,7 @@ public class Map{
         selected = oneState;
       }
     }
-   /* if (selected!=null){
-      selected.dataBox();
-    }*/
+
     
   }
   

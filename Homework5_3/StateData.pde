@@ -25,17 +25,6 @@ public class StateData{
     this.workers = workers;
   }
   
-  public float[] getDataArray(){
-    if(numOrPerc)
-      return dataArray;
-    else
-      return percArray;
-  }
-  
-  public float[] getPercArray(){
-      return percArray;
-  }
-  
   public int getWorkers(){
     return workers;
   }
