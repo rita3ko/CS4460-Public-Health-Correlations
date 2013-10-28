@@ -2,6 +2,7 @@ import java.awt.Polygon;
 
 
 public Map map;
+public Sidebar sidebar;
 
 public static color background;
 
@@ -18,21 +19,27 @@ private int widthW;
 private int heightH;
 String[] typeName = {"Drove Alone","Carpooled","Public Trans.","Walked","Other","Home"};
 
-//ControlP5 cp5;
+ControlP5 cp5;
       
 color[] typeColor;
+color red, lightGray;
+
+
 
 void setup(){
   draw = new Draw();
 
   colorMode(HSB,100);
   
+  cp5 = new ControlP5(this);
+  
   color blue = color(55,76,100); 
   color green = color(24,100,100); 
   color purple = color(77,80,100);
   color orange = color(9,100,100);
   color magenta = color(90,80,100);
-  color red = color(100,83,100);
+  red = color(100,83,100);
+  lightGray = color(0,9,79);
   
   color[] typeColorTemp = {blue,green,purple,orange, magenta, red};
   typeColor= typeColorTemp;
@@ -53,6 +60,7 @@ void setup(){
   int marginTop = 130;
   int mapWidth = 800;
   map = new Map();
+  sidebar = new Sidebar();
  
 }
 

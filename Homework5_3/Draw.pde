@@ -11,13 +11,14 @@ public class Draw{
     fill(background);
     textFont(font48, 48);
     textAlign(CENTER);
-    text("U.S. Commuting by State", width/2, 65);  
+    text("U.S. Public Health Correlations", width/2, 65);  
   }
   
   public void draw(){
     background(background);
     title();
     map.drawMap();
+    sidebar.drawSidebar();
   }
   
   public void filterChange(){
