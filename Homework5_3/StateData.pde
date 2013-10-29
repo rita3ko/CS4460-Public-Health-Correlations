@@ -2,33 +2,19 @@
 public class StateData{
   // --- Called during app to populate all states. ----
   
-  private float travelTime;
-  private float[] dataArray;
-  private float[] percArray;
+  private int[] dataArray;
   
-  private int workers;
-  
-  public StateData(String name, int workers, int alone, 
-                    int carpooled, int publicTrans, int walked, int other, int home, float travelTime){               
-    float workDivide = (float)workers;
-    percArray = new float[6];
+  public StateData(String name, int year, int healthExp, int population){               
+
     
-    float[] anArray = {alone, carpooled, publicTrans, walked, other, home};
-    
-    for(int i=0; i<anArray.length; i++){
-      percArray[i] = (100*(anArray[i]/workDivide));
-    }
+    int[] anArray = {year, healthExp, population};
     
     dataArray = anArray;
     
-    this.travelTime = travelTime;
-    this.workers = workers;
+
   }
   
-  public int getWorkers(){
-    return workers;
-  }
-  
+
   // --- Draw Hover Box ----
   public void drawBox(int mx, int my){
     fill(2,2,2,60);

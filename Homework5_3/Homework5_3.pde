@@ -1,5 +1,6 @@
 import java.awt.Polygon; 
-
+import controlP5.*;
+import de.bezier.data.*;
 
 public Map map;
 public Sidebar sidebar;
@@ -20,6 +21,7 @@ private int heightH;
 String[] typeName = {"Drove Alone","Carpooled","Public Trans.","Walked","Other","Home"};
 
 ControlP5 cp5;
+XlsReader reader;
       
 color[] typeColor;
 color red, lightGray;
@@ -32,7 +34,8 @@ void setup(){
   colorMode(HSB,100);
   
   cp5 = new ControlP5(this);
-  
+  reader = new XlsReader(this, "Data1.xls");
+  reader.firstRow();
   color blue = color(55,76,100); 
   color green = color(24,100,100); 
   color purple = color(77,80,100);
@@ -55,14 +58,16 @@ void setup(){
   
   // --- Text Setup ----
   fontLoad();
+  cp5.setControlFont(font14);
   
   // --- Create Map ----
   int marginTop = 130;
   int mapWidth = 800;
   map = new Map();
   sidebar = new Sidebar();
- 
+
 }
+
 
 void fontLoad(){
   font48 = loadFont("SofiaProLight-48.vlw");
