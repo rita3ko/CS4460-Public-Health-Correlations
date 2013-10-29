@@ -3,7 +3,9 @@ import java.awt.Polygon;
 public class State{
   private String name;
   private Poly polygon;
-  
+  private int year;
+  private int healthExp;
+  private int population;
   private boolean highlight;
   
   // --- If it's being accessed in another window
@@ -21,9 +23,17 @@ public class State{
   public color gray;
 
   
-  public State(String name, String abb, Poly polygon, int centerX, int centerY, int workers, int alone, int carpooled, int publicTrans, int walked, int other, int home, float travelTime){
+  public State(String name, String abb, Poly polygon, int centerX, int centerY, int year, int healthExp, int population){
     this.name = name;
+    this.abb = abb;
     this.polygon = polygon;
+    this.centerX = centerX;
+    this.centerY = centerY;
+    
+    this.year = year;
+    
+    this.healthExp = healthExp;
+    this.population = population;
     
     gray = color(random(75)+25);
     this.abb = abb;
@@ -31,7 +41,7 @@ public class State{
     this.centerX = centerX;
     this.centerY = centerY;
 
-    data = new StateData(name, workers, alone, carpooled, publicTrans, walked, other, home, travelTime);
+    data = new StateData(name, year, healthExp, population);
     
     highlight = false;
     brushing = false;
@@ -43,8 +53,6 @@ public class State{
   }
   
   public color createColor(){
-   // this.stateColor = workers%1000000;
-   //int[] saturation = {65, 12, 
     return color(random(100), random(80)+20, random(10)+90); //random(10)+90
   }
   
@@ -121,9 +129,7 @@ public class State{
      return centerY;
   }
   
-  public int getWorkers(){
-     return data.getWorkers();
-  }
+
 
 }
 

@@ -53,22 +53,21 @@ public class Map{
         
       }
       Poly shape = new Poly(x,y,pointCount);
-      
-      JSONObject jsonState = stateData.getJSONObject(i);
-     
-      int alone = jsonState.getInt("alone");
-      int carpool = jsonState.getInt("carpool");
-      int publicTrans = jsonState.getInt("public");
-      int walk = jsonState.getInt("walk");
-      int other = jsonState.getInt("other");
-      int home = jsonState.getInt("home");
-      
-      String name = jsonState.getString("name");
-      int workers = alone+carpool+publicTrans+walk+other+home;
-      float travel = 0.0;
+      String name = reader.getString(i+1,0);
+      println(reader.getInt(i+1,1));
+      int year = reader.getInt(i+1,1);
+      int healthExp = 0;
+      try {
+        healthExp = reader.getInt(i+1,2);
+      } catch (NullPointerException e) {
+        healthExp = 0;
+      }
+      finally {
+      }
+      int population = reader.getInt(i+1,3);
       
        State aState = new State(name, state[i].getString("abb"), 
-          shape, centerX, centerY, workers, alone, carpool, publicTrans, walk, other, home, travel);
+          shape, centerX, centerY, year, healthExp, population);
       
       stateList.add(aState);
   }
