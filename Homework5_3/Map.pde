@@ -54,7 +54,6 @@ public class Map{
       }
       Poly shape = new Poly(x,y,pointCount);
       String name = reader.getString(i+1,0);
-      println(reader.getInt(i+1,1));
       int year = reader.getInt(i+1,1);
       int healthExp = 0;
       try {
@@ -65,7 +64,7 @@ public class Map{
       finally {
       }
       int population = reader.getInt(i+1,3);
-      
+      println(name + " " + population + " " + healthExp);
        State aState = new State(name, state[i].getString("abb"), 
           shape, centerX, centerY, year, healthExp, population);
       
