@@ -99,6 +99,9 @@ public class State{
     
     polygon.draw();
       drawName();
+    
+    if (ret != null) drawStateData(ret, mouseX, mouseY);
+
       
 
     return ret;
@@ -129,8 +132,17 @@ public class State{
      return centerY;
   }
   
-
-
+  public void drawStateData(State st, int x, int y) {
+    float wid = 300, hig = 300;
+    fill(white);
+    stroke(black);
+    rect(x,y,wid,hig);
+    fill(black);
+    textAlign(CENTER, CENTER);
+    textSize(20);
+    text(st.name, x + wid / 2, y + hig / 10);
+    text("Population:      " + st.population, x + wid / 2, y + hig * 2 / 10);
+  }
 }
 
 

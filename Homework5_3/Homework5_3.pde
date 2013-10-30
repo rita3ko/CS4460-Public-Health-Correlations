@@ -24,7 +24,7 @@ ControlP5 cp5;
 XlsReader reader;
       
 color[] typeColor;
-color blue, green, purple, orange, magenta, red, lightGray;
+color blue, green, purple, orange, magenta, red, lightGray, black, white;
 
 
 
@@ -43,6 +43,8 @@ void setup(){
   magenta = color(90,80,100);
   red = color(100,83,100);
   lightGray = color(0,9,79);
+  black = color(0);
+  white = color(100);
   
   color[] typeColorTemp = {blue,green,purple,orange, magenta,red};
   typeColor= typeColorTemp;
@@ -59,6 +61,7 @@ void setup(){
   // --- Text Setup ----
   fontLoad();
   cp5.setControlFont(font14);
+  cp5.setColorLabel(black);
   
   // --- Create Map ----
   int marginTop = 130;
