@@ -55,18 +55,27 @@ public class Map{
       Poly shape = new Poly(x,y,pointCount);
       String name = reader.getString(i+1,0);
       int year = reader.getInt(i+1,1);
+      int population = reader.getInt(i+1,2);
+      float medianIncome = reader.getFloat(i+1,3);
       int healthExp = 0;
       try {
-        healthExp = reader.getInt(i+1,2);
+        healthExp = reader.getInt(i+1,4);
       } catch (NullPointerException e) {
         healthExp = 0;
       }
-      finally {
-      }
-      int population = reader.getInt(i+1,3);
-      println(name + " " + population + " " + healthExp);
+      float noInsCoverage = reader.getFloat(i+1,5);
+      float insCoverage = reader.getFloat(i+1,6);
+      float employmentBased = reader.getFloat(i+1,7);
+      float directPurchase = reader.getFloat(i+1,8);
+      float government = reader.getFloat(i+1,9);
+      float medicaid = reader.getFloat(i+1,10);
+      float medicare = reader.getFloat(i+1,11);
+      float military = reader.getFloat(i+1,12);
+      //println(name + " " + year+ " " + population + " " + healthExp + " " + insCoverage);
        State aState = new State(name, state[i].getString("abb"), 
-          shape, centerX, centerY, year, healthExp, population);
+          shape, centerX, centerY, year, population, medianIncome, healthExp,
+          noInsCoverage, insCoverage, employmentBased, directPurchase,
+          government, medicaid, medicare, military);
       
       stateList.add(aState);
   }

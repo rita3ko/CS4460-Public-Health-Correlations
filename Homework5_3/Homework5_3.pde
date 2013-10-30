@@ -1,7 +1,6 @@
 import java.awt.Polygon; 
 import controlP5.*;
-import de.bezier.data.*;
-
+import de.bezier.data.*; //Xlsreader library 
 public Map map;
 public Sidebar sidebar;
 
@@ -59,6 +58,7 @@ void setup(){
   // --- Text Setup ----
   fontLoad();
   cp5.setControlFont(font14);
+  cp5.setColorLabel(red);
   
   // --- Create Map ----
   int marginTop = 130;
