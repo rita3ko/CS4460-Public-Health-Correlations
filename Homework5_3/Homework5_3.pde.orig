@@ -60,7 +60,11 @@ void setup(){
   // --- Text Setup ----
   fontLoad();
   cp5.setControlFont(font14);
+<<<<<<< HEAD
   cp5.setColorLabel(black);
+=======
+  cp5.setColorLabel(red);
+>>>>>>> 66c72f0330a1e940f7b8077166f402841bea2ac5
   
   // --- Create Map ----
   int marginTop = 130;

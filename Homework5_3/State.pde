@@ -23,7 +23,10 @@ public class State{
   public color gray;
 
   
-  public State(String name, String abb, Poly polygon, int centerX, int centerY, int year, int healthExp, int population){
+  public State(String name, String abb, Poly polygon, int centerX, int centerY, int year,
+          int population, float medianIncome, int healthExp, float noInsCoverage, float insCoverage,
+          float employmentBased, float directPurchase, float government,
+          float medicaid, float medicare, float military){
     this.name = name;
     this.abb = abb;
     this.polygon = polygon;
@@ -41,7 +44,9 @@ public class State{
     this.centerX = centerX;
     this.centerY = centerY;
 
-    data = new StateData(name, year, healthExp, population);
+    data = new StateData(name, year, population, medianIncome, healthExp, noInsCoverage, 
+                    insCoverage, employmentBased, directPurchase, government,
+                    medicaid, medicare, military);
     
     highlight = false;
     brushing = false;
