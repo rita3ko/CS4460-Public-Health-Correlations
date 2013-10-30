@@ -115,7 +115,7 @@ public class Map{
   public void mousePressed(){
     for(State st: stateList){
       if (st.highlight){
-     
+
         //return st;
       }
     }
@@ -128,7 +128,7 @@ public class Map{
     
     for (State st: stateList){
       State oneState = st.draw();
-      if (oneState!=null){
+      if (oneState!=null){      //???
         selected = oneState;
       }
     }

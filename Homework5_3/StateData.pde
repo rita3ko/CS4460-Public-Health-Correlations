@@ -34,6 +34,5 @@ public class StateData{
     fill(2,2,2,60);
     noStroke();
     rect(mx,my, 20, 20);
-  }
-  
+  } 
 }
