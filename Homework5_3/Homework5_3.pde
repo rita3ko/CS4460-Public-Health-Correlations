@@ -18,13 +18,13 @@ public static int filterOn;
 
 private int widthW;
 private int heightH;
-String[] typeName = {"Drove Alone","Carpooled","Public Trans.","Walked","Other","Home"};
+String[] typeName = {"Population","Health Expeditures","Percent Uninsured","Percent Insured","Median Household Income"};
 
 ControlP5 cp5;
 XlsReader reader;
       
 color[] typeColor;
-color red, lightGray;
+color blue, green, purple, orange, magenta, red, lightGray;
 
 
 
@@ -36,15 +36,15 @@ void setup(){
   cp5 = new ControlP5(this);
   reader = new XlsReader(this, "Data1.xls");
   reader.firstRow();
-  color blue = color(55,76,100); 
-  color green = color(24,100,100); 
-  color purple = color(77,80,100);
-  color orange = color(9,100,100);
-  color magenta = color(90,80,100);
+  blue = color(55,76,100); 
+  green = color(24,100,100); 
+  purple = color(77,80,100);
+  orange = color(9,100,100);
+  magenta = color(90,80,100);
   red = color(100,83,100);
   lightGray = color(0,9,79);
   
-  color[] typeColorTemp = {blue,green,purple,orange, magenta, red};
+  color[] typeColorTemp = {blue,green,purple,orange, magenta,red};
   typeColor= typeColorTemp;
   
   background = color(0,0,100);
