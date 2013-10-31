@@ -35,6 +35,8 @@ void setup(){
   cp5 = new ControlP5(this);
   reader = new XlsReader(this, "Data1.xls");
   reader.firstRow();
+  
+  // --- Colors Setup ----
   blue = color(55,76,100); 
   green = color(24,100,100); 
   purple = color(77,80,100);
@@ -44,16 +46,16 @@ void setup(){
   lightGray = color(0,9,79);
   black = color(0);
   white = color(100);
-  
   color[] typeColorTemp = {blue,green,purple,orange, magenta,red};
   typeColor= typeColorTemp;
   
-  background = color(0,0,100);
+
   
   // --- Canvas Setup ----
   heightH = 900;
   widthW = 1200;
   size(widthW,heightH);
+  background = color(0,0,100);
   background(background);
   noStroke();
   
@@ -70,7 +72,7 @@ void setup(){
 
 }
 
-
+/*loads all fonts*/
 void fontLoad(){
   font48 = loadFont("SofiaProLight-48.vlw");
   font36 = loadFont("SofiaProLight-36.vlw");
@@ -78,6 +80,10 @@ void fontLoad(){
   font14 = loadFont("SofiaProLight-14.vlw");
 }
 
+/* Trigged when mouse moves. Ideally smart 
+*  enough to check bounds before going into function
+*  calls
+*/
 void mouseMoved(){
   
   //if (draw.within(10,150,720,800)){
@@ -87,7 +93,11 @@ void mouseMoved(){
 
 }
 
-
+/* 
+* Trigged when mouse is pressed. Ideally smart 
+*  enough to check bounds before going into
+*  function calls
+*/
 void mousePressed(){
   
   // --- Mouse is pressed on Map ----
