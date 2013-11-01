@@ -4,6 +4,10 @@ public class Draw{
     //draw();
   }
   
+  
+  /* 
+  * Draws the gray bar with the title
+  */
   public void title(){
     fill(34);
     noStroke();
@@ -14,16 +18,24 @@ public class Draw{
     text("U.S. Public Health Correlations", width/2, 65);  
   }
   
+  /* 
+  * Redraws Everything.
+  */
   public void draw(){
     background(background);
     title();
-    map.drawMap();
     sidebar.drawSidebar();
+    map.drawMap();
+    
   }
   
+  /* 
+  * Redraws Everything when filter changes
+
   public void filterChange(){
     draw.draw();
   }
+  */
   
   public void setWindowState(State state){
     //map.brush(state);

@@ -1,35 +1,26 @@
 <states>
-<state name ="Hawaii" abb="HI" lng="-158.028808" lat="21.534847">
-  <point lat="19.5158" lng="-154.6284"/>
-  <point lat="19.8894" lng="-154.8235"/>
-  <point lat="20.1849" lng="-155.0391"/>
-  <point lat="20.3910" lng="-155.5952"/>
-  <point lat="20.8614" lng="-155.7930"/>
-  <point lat="21.0948" lng="-156.1858"/>
-  <point lat="21.3597" lng="-156.6595"/>
-  <point lat="21.4748" lng="-157.1182"/>
-  <point lat="21.5515" lng="-157.5247"/>
-  <point lat="21.8832" lng="-157.8186"/>
-  <point lat="22.3386" lng="-159.2180"/>
-  <point lat="22.3374" lng="-159.7508"/>
-  <point lat="22.1493" lng="-160.1422"/>
-  <point lat="21.8857" lng="-160.3922"/>
-  <point lat="21.6025" lng="-160.3249"/>
-  <point lat="21.7276" lng="-159.9939"/>
-  <point lat="21.6932" lng="-159.4295"/>
-  <point lat="21.1037" lng="-158.1784"/>
-  <point lat="20.8152" lng="-157.4629"/>
-  <point lat="20.6803" lng="-157.2171"/>
-  <point lat="20.3408" lng="-156.8285"/>
-  <point lat="20.2931" lng="-156.5456"/>
-  <point lat="20.1643" lng="-156.1418"/>
-  <point lat="19.9308" lng="-156.2393"/>
-  <point lat="19.2826" lng="-156.1432"/>
-  <point lat="18.9881" lng="-156.1212"/>
-  <point lat="18.7100" lng="-155.7120"/>
-  <point lat="18.8829" lng="-155.3673"/>
-  <point lat="19.2048" lng="-154.8839"/>
-  <point lat="19.5158" lng="-154.6271"/>
+<state name ="Alabama" abb="AL" lng="-86.837402" lat="32.916485">
+  <point lat="35.0041" lng="-88.1955"/>
+  <point lat="34.9918" lng="-85.6068"/>
+  <point lat="32.8404" lng="-85.1756"/>
+  <point lat="32.2593" lng="-84.8927"/>
+  <point lat="32.1535" lng="-85.0342"/>
+  <point lat="31.7947" lng="-85.1358"/>
+  <point lat="31.5200" lng="-85.0438"/>
+  <point lat="31.3384" lng="-85.0836"/>
+  <point lat="31.2093" lng="-85.1070"/>
+  <point lat="31.0023" lng="-84.9944"/>
+  <point lat="30.9953" lng="-87.6009"/>
+  <point lat="30.9423" lng="-87.5926"/>
+  <point lat="30.8539" lng="-87.6256"/>
+  <point lat="30.6745" lng="-87.4072"/>
+  <point lat="30.4404" lng="-87.3688"/>
+  <point lat="30.1463" lng="-87.5240"/>
+  <point lat="30.1546" lng="-88.3864"/>
+  <point lat="31.8939" lng="-88.4743"/>
+  <point lat="34.8938" lng="-88.1021"/>
+  <point lat="34.9479" lng="-88.1721"/>
+  <point lat="34.9107" lng="-88.1461"/>
 </state>
 <state name ="Alaska" abb="AK" lng="-151.700683" lat="65.512963">
   <point lat="70.0187" lng="-141.0205"/>
@@ -119,89 +110,6 @@
   <point lat="60.3059" lng="-140.9999"/>
   <point lat="70.0187" lng="-141.0205"/>
 </state>
-<state name ="Alabama" abb="AL" lng="-86.837402" lat="32.916485">
-  <point lat="35.0041" lng="-88.1955"/>
-  <point lat="34.9918" lng="-85.6068"/>
-  <point lat="32.8404" lng="-85.1756"/>
-  <point lat="32.2593" lng="-84.8927"/>
-  <point lat="32.1535" lng="-85.0342"/>
-  <point lat="31.7947" lng="-85.1358"/>
-  <point lat="31.5200" lng="-85.0438"/>
-  <point lat="31.3384" lng="-85.0836"/>
-  <point lat="31.2093" lng="-85.1070"/>
-  <point lat="31.0023" lng="-84.9944"/>
-  <point lat="30.9953" lng="-87.6009"/>
-  <point lat="30.9423" lng="-87.5926"/>
-  <point lat="30.8539" lng="-87.6256"/>
-  <point lat="30.6745" lng="-87.4072"/>
-  <point lat="30.4404" lng="-87.3688"/>
-  <point lat="30.1463" lng="-87.5240"/>
-  <point lat="30.1546" lng="-88.3864"/>
-  <point lat="31.8939" lng="-88.4743"/>
-  <point lat="34.8938" lng="-88.1021"/>
-  <point lat="34.9479" lng="-88.1721"/>
-  <point lat="34.9107" lng="-88.1461"/>
-</state>
-<state name ="Arkansas" abb="AR" lng="-92.550293" lat="34.885931">
-  <point lat="33.0225" lng="-94.0416"/>
-  <point lat="33.0075" lng="-91.2057"/>
-  <point lat="33.1180" lng="-91.1989"/>
-  <point lat="33.1824" lng="-91.1041"/>
-  <point lat="33.3053" lng="-91.1343"/>
-  <point lat="33.4211" lng="-91.1646"/>
-  <point lat="33.4337" lng="-91.2263"/>
-  <point lat="33.5403" lng="-91.2524"/>
-  <point lat="33.6112" lng="-91.1797"/>
-  <point lat="33.6855" lng="-91.2524"/>
-  <point lat="33.6946" lng="-91.1261"/>
-  <point lat="33.7883" lng="-91.1412"/>
-  <point lat="33.7700" lng="-91.0451"/>
-  <point lat="33.8328" lng="-91.0341"/>
-  <point lat="33.9399" lng="-91.0863"/>
-  <point lat="34.0208" lng="-90.9256"/>
-  <point lat="34.0856" lng="-90.9036"/>
-  <point lat="34.1345" lng="-90.9586"/>
-  <point lat="34.1675" lng="-90.9132"/>
-  <point lat="34.1380" lng="-90.8501"/>
-  <point lat="34.2311" lng="-90.9325"/>
-  <point lat="34.3446" lng="-90.6935"/>
-  <point lat="34.4409" lng="-90.5603"/>
-  <point lat="34.5348" lng="-90.5548"/>
-  <point lat="34.5959" lng="-90.5768"/>
-  <point lat="34.7213" lng="-90.5301"/>
-  <point lat="34.7574" lng="-90.5328"/>
-  <point lat="34.8780" lng="-90.4546"/>
-  <point lat="34.8454" lng="-90.3529"/>
-  <point lat="34.8690" lng="-90.2911"/>
-  <point lat="35.0255" lng="-90.3104"/>
-  <point lat="35.1154" lng="-90.2843"/>
-  <point lat="35.1323" lng="-90.1772"/>
-  <point lat="35.1985" lng="-90.1112"/>
-  <point lat="35.2826" lng="-90.1524"/>
-  <point lat="35.4383" lng="-90.1332"/>
-  <point lat="35.5579" lng="-90.0206"/>
-  <point lat="35.6740" lng="-89.9780"/>
-  <point lat="35.7287" lng="-89.9547"/>
-  <point lat="35.9169" lng="-89.6594"/>
-  <point lat="35.9658" lng="-89.6883"/>
-  <point lat="36.0013" lng="-89.7130"/>
-  <point lat="35.9958" lng="-90.3735"/>
-  <point lat="36.1268" lng="-90.2664"/>
-  <point lat="36.2875" lng="-90.0934"/>
-  <point lat="36.3892" lng="-90.0742"/>
-  <point lat="36.4180" lng="-90.1511"/>
-  <point lat="36.4997" lng="-90.1566"/>
-  <point lat="36.4986" lng="-94.6198"/>
-  <point lat="35.3801" lng="-94.4412"/>
-  <point lat="33.6318" lng="-94.4893"/>
-  <point lat="33.6421" lng="-94.4522"/>
-  <point lat="33.5597" lng="-94.4000"/>
-  <point lat="33.5883" lng="-94.2462"/>
-  <point lat="33.5872" lng="-94.1885"/>
-  <point lat="33.5345" lng="-94.0375"/>
-  <point lat="33.4314" lng="-94.0430"/>
-  <point lat="33.0213" lng="-94.0430"/>
-</state> 
 <state name ="Arizona" abb="AZ" lng="-111.886230" lat="34.669359">
   <point lat="36.9993" lng="-112.5989"/>
   <point lat="37.0004" lng="-110.8630"/>
@@ -289,6 +197,66 @@
   <point lat="36.3638" lng="-114.0450"/>
   <point lat="37.0001" lng="-114.0508"/>
 </state>
+<state name ="Arkansas" abb="AR" lng="-92.550293" lat="34.885931">
+  <point lat="33.0225" lng="-94.0416"/>
+  <point lat="33.0075" lng="-91.2057"/>
+  <point lat="33.1180" lng="-91.1989"/>
+  <point lat="33.1824" lng="-91.1041"/>
+  <point lat="33.3053" lng="-91.1343"/>
+  <point lat="33.4211" lng="-91.1646"/>
+  <point lat="33.4337" lng="-91.2263"/>
+  <point lat="33.5403" lng="-91.2524"/>
+  <point lat="33.6112" lng="-91.1797"/>
+  <point lat="33.6855" lng="-91.2524"/>
+  <point lat="33.6946" lng="-91.1261"/>
+  <point lat="33.7883" lng="-91.1412"/>
+  <point lat="33.7700" lng="-91.0451"/>
+  <point lat="33.8328" lng="-91.0341"/>
+  <point lat="33.9399" lng="-91.0863"/>
+  <point lat="34.0208" lng="-90.9256"/>
+  <point lat="34.0856" lng="-90.9036"/>
+  <point lat="34.1345" lng="-90.9586"/>
+  <point lat="34.1675" lng="-90.9132"/>
+  <point lat="34.1380" lng="-90.8501"/>
+  <point lat="34.2311" lng="-90.9325"/>
+  <point lat="34.3446" lng="-90.6935"/>
+  <point lat="34.4409" lng="-90.5603"/>
+  <point lat="34.5348" lng="-90.5548"/>
+  <point lat="34.5959" lng="-90.5768"/>
+  <point lat="34.7213" lng="-90.5301"/>
+  <point lat="34.7574" lng="-90.5328"/>
+  <point lat="34.8780" lng="-90.4546"/>
+  <point lat="34.8454" lng="-90.3529"/>
+  <point lat="34.8690" lng="-90.2911"/>
+  <point lat="35.0255" lng="-90.3104"/>
+  <point lat="35.1154" lng="-90.2843"/>
+  <point lat="35.1323" lng="-90.1772"/>
+  <point lat="35.1985" lng="-90.1112"/>
+  <point lat="35.2826" lng="-90.1524"/>
+  <point lat="35.4383" lng="-90.1332"/>
+  <point lat="35.5579" lng="-90.0206"/>
+  <point lat="35.6740" lng="-89.9780"/>
+  <point lat="35.7287" lng="-89.9547"/>
+  <point lat="35.9169" lng="-89.6594"/>
+  <point lat="35.9658" lng="-89.6883"/>
+  <point lat="36.0013" lng="-89.7130"/>
+  <point lat="35.9958" lng="-90.3735"/>
+  <point lat="36.1268" lng="-90.2664"/>
+  <point lat="36.2875" lng="-90.0934"/>
+  <point lat="36.3892" lng="-90.0742"/>
+  <point lat="36.4180" lng="-90.1511"/>
+  <point lat="36.4997" lng="-90.1566"/>
+  <point lat="36.4986" lng="-94.6198"/>
+  <point lat="35.3801" lng="-94.4412"/>
+  <point lat="33.6318" lng="-94.4893"/>
+  <point lat="33.6421" lng="-94.4522"/>
+  <point lat="33.5597" lng="-94.4000"/>
+  <point lat="33.5883" lng="-94.2462"/>
+  <point lat="33.5872" lng="-94.1885"/>
+  <point lat="33.5345" lng="-94.0375"/>
+  <point lat="33.4314" lng="-94.0430"/>
+  <point lat="33.0213" lng="-94.0430"/>
+</state> 
 <state name ="California" abb="CA" lng="-120.060058" lat="37.649034">
   <point lat="41.9983" lng="-124.4009"/>
   <point lat="42.0024" lng="-123.6237"/>
@@ -464,6 +432,20 @@
   <point lat="39.8296" lng="-75.6477"/>
   <point lat="39.7199" lng="-75.7906"/>
 </state>
+<state name ="District of Columbia" abb="D.C." lng="-77.033418" lat="38.905985">
+  <point lat="38.8921" lng="-76.9112"/>
+  <point lat="38.7991" lng="-77.0320"/>
+  <point lat="38.9402" lng="-77.1144"/>
+  <point lat="38.9968" lng="-77.0430"/>
+  <point lat="38.8996" lng="-76.9167"/>
+  <point lat="33.7243" lng="-74.8843"/>
+  <point lat="33.7243" lng="-72.6870"/>
+  <point lat="32.3243" lng="-72.6870"/>
+  <point lat="32.3985" lng="-76.7300"/>
+  <point lat="33.7152" lng="-76.6957"/>
+  <point lat="33.7243" lng="-74.9489"/>
+  <point lat="38.8921" lng="-76.9112"/>
+</state>  
 <state name ="Florida" abb="FL" lng="-81.651855" lat="28.226970">
   <point lat="30.9988" lng="-87.6050"/>
   <point lat="30.9964" lng="-86.5613"/>
@@ -626,6 +608,38 @@
   <point lat="33.6512" lng="-85.3418"/>
   <point lat="34.5620" lng="-85.5231"/>
   <point lat="34.9929" lng="-85.6068"/>
+</state>
+<state name ="Hawaii" abb="HI" lng="-158.028808" lat="21.534847">
+  <point lat="19.5158" lng="-154.6284"/>
+  <point lat="19.8894" lng="-154.8235"/>
+  <point lat="20.1849" lng="-155.0391"/>
+  <point lat="20.3910" lng="-155.5952"/>
+  <point lat="20.8614" lng="-155.7930"/>
+  <point lat="21.0948" lng="-156.1858"/>
+  <point lat="21.3597" lng="-156.6595"/>
+  <point lat="21.4748" lng="-157.1182"/>
+  <point lat="21.5515" lng="-157.5247"/>
+  <point lat="21.8832" lng="-157.8186"/>
+  <point lat="22.3386" lng="-159.2180"/>
+  <point lat="22.3374" lng="-159.7508"/>
+  <point lat="22.1493" lng="-160.1422"/>
+  <point lat="21.8857" lng="-160.3922"/>
+  <point lat="21.6025" lng="-160.3249"/>
+  <point lat="21.7276" lng="-159.9939"/>
+  <point lat="21.6932" lng="-159.4295"/>
+  <point lat="21.1037" lng="-158.1784"/>
+  <point lat="20.8152" lng="-157.4629"/>
+  <point lat="20.6803" lng="-157.2171"/>
+  <point lat="20.3408" lng="-156.8285"/>
+  <point lat="20.2931" lng="-156.5456"/>
+  <point lat="20.1643" lng="-156.1418"/>
+  <point lat="19.9308" lng="-156.2393"/>
+  <point lat="19.2826" lng="-156.1432"/>
+  <point lat="18.9881" lng="-156.1212"/>
+  <point lat="18.7100" lng="-155.7120"/>
+  <point lat="18.8829" lng="-155.3673"/>
+  <point lat="19.2048" lng="-154.8839"/>
+  <point lat="19.5158" lng="-154.6271"/>
 </state>
 <state name ="Idaho" abb="ID" lng="-114.259277" lat="44.150681">
   <point lat="49.0000" lng="-117.0319"/>
@@ -1185,57 +1199,63 @@
   <point lat="32.7041" lng="-94.0430"/>
   <point lat="33.0225" lng="-94.0430"/>
 </state>
-<state name ="Massachusetts" abb="MA" lng="-72.279236" lat="42.407235">
- <point lat="42.0003" lng="-72.7789"/>
-  <point lat="42.0330" lng="-72.7405"/>
-  <point lat="42.0330" lng="-72.3779"/>
-  <point lat="42.0228" lng="-71.7984"/>
-  <point lat="42.0085" lng="-71.8011"/>
-  <point lat="42.0197" lng="-71.3850"/>
-  <point lat="41.8961" lng="-71.3837"/>
-  <point lat="41.8982" lng="-71.3411"/>
-  <point lat="41.8358" lng="-71.3370"/>
-  <point lat="41.8245" lng="-71.3493"/>
-  <point lat="41.7816" lng="-71.3342"/>
-  <point lat="41.7529" lng="-71.2628"/>
-  <point lat="41.6719" lng="-71.1914"/>
-  <point lat="41.6616" lng="-71.1351"/>
-  <point lat="41.6124" lng="-71.1433"/>
-  <point lat="41.5939" lng="-71.1310"/>
-  <point lat="41.4973" lng="-71.1214"/>
-  <point lat="41.3149" lng="-71.0266"/>
-  <point lat="41.1590" lng="-70.8316"/>
-  <point lat="41.1662" lng="-69.9225"/>
-  <point lat="41.3201" lng="-69.7948"/>
-  <point lat="41.8133" lng="-69.7398"/>
-  <point lat="42.1939" lng="-70.0337"/>
-  <point lat="42.2173" lng="-70.5144"/>
-  <point lat="42.4133" lng="-70.6984"/>
-  <point lat="42.6420" lng="-70.3647"/>
-  <point lat="42.8286" lng="-70.4759"/>
-  <point lat="42.8760" lng="-70.6133"/>
-  <point lat="42.8619" lng="-70.8440"/>
-  <point lat="42.8890" lng="-70.9154"/>
-  <point lat="42.8075" lng="-71.0651"/>
-  <point lat="42.8226" lng="-71.1337"/>
-  <point lat="42.7873" lng="-71.1859"/>
-  <point lat="42.7369" lng="-71.1832"/>
-  <point lat="42.7470" lng="-71.2189"/>
-  <point lat="42.7400" lng="-71.2560"/>
-  <point lat="42.6986" lng="-71.2985"/>
-  <point lat="42.7127" lng="-71.9151"/>
-  <point lat="42.7309" lng="-72.5441"/>
-  <point lat="42.7450" lng="-73.2541"/>
-  <point lat="42.7460" lng="-73.2664"/>
-  <point lat="42.5460" lng="-73.3406"/>
-  <point lat="42.2671" lng="-73.4436"/>
-  <point lat="42.1349" lng="-73.4917"/>
-  <point lat="42.0880" lng="-73.5081"/>
-  <point lat="42.0483" lng="-73.4985"/>
-  <point lat="42.0452" lng="-73.1841"/>
-  <point lat="42.0371" lng="-72.8146"/>
-  <point lat="41.9962" lng="-72.8160"/>
-  <point lat="42.0024" lng="-72.7803"/>
+<state name ="Maine" abb="ME" lng="-69.171386" lat="45.274886">
+  <point lat="45.3425" lng="-71.0129"/>
+  <point lat="45.3328" lng="-70.9525"/>
+  <point lat="45.2294" lng="-70.8618"/>
+  <point lat="45.3917" lng="-70.8247"/>
+  <point lat="45.4274" lng="-70.7808"/>
+  <point lat="45.3830" lng="-70.6380"/>
+  <point lat="45.5092" lng="-70.7190"/>
+  <point lat="45.6544" lng="-70.5721"/>
+  <point lat="45.7292" lng="-70.3894"/>
+  <point lat="45.7924" lng="-70.4169"/>
+  <point lat="45.9368" lng="-70.2493"/>
+  <point lat="45.9597" lng="-70.3098"/>
+  <point lat="46.0923" lng="-70.2946"/>
+  <point lat="46.0989" lng="-70.2589"/>
+  <point lat="46.1342" lng="-70.2466"/>
+  <point lat="46.1903" lng="-70.2905"/>
+  <point lat="46.2710" lng="-70.2466"/>
+  <point lat="46.3270" lng="-70.2040"/>
+  <point lat="46.4151" lng="-70.0571"/>
+  <point lat="46.6956" lng="-69.9994"/>
+  <point lat="47.4550" lng="-69.2303"/>
+  <point lat="47.4132" lng="-69.0381"/>
+  <point lat="47.2578" lng="-69.0504"/>
+  <point lat="47.1748" lng="-68.8843"/>
+  <point lat="47.2643" lng="-68.6206"/>
+  <point lat="47.3546" lng="-68.3350"/>
+  <point lat="47.3165" lng="-68.1564"/>
+  <point lat="47.1038" lng="-67.8804"/>
+  <point lat="47.0664" lng="-67.7898"/>
+  <point lat="45.9359" lng="-67.7802"/>
+  <point lat="45.9177" lng="-67.7527"/>
+  <point lat="45.7599" lng="-67.8090"/>
+  <point lat="45.6208" lng="-67.6524"/>
+  <point lat="45.5987" lng="-67.4533"/>
+  <point lat="45.5044" lng="-67.4176"/>
+  <point lat="45.4823" lng="-67.5014"/>
+  <point lat="45.3714" lng="-67.4231"/>
+  <point lat="45.2768" lng="-67.4863"/>
+  <point lat="45.1297" lng="-67.3434"/>
+  <point lat="45.1830" lng="-67.2487"/>
+  <point lat="45.1230" lng="-67.1223"/>
+  <point lat="44.8315" lng="-66.9672"/>
+  <point lat="44.7409" lng="-66.8628"/>
+  <point lat="44.4945" lng="-67.3105"/>
+  <point lat="44.3268" lng="-67.9051"/>
+  <point lat="43.8702" lng="-68.6673"/>
+  <point lat="43.7274" lng="-68.8431"/>
+  <point lat="43.6639" lng="-69.7137"/>
+  <point lat="43.5625" lng="-70.0818"/>
+  <point lat="42.9182" lng="-70.5569"/>
+  <point lat="43.0649" lng="-70.7108"/>
+  <point lat="43.1391" lng="-70.8302"/>
+  <point lat="43.2292" lng="-70.8179"/>
+  <point lat="43.3631" lng="-70.9799"/>
+  <point lat="43.5675" lng="-70.9717"/>
+  <point lat="45.3029" lng="-71.0829"/>
 </state>
 <state name ="Maryland" abb="MD" lng="-76.948425" lat="39.478606">
   <point lat="39.7220" lng="-79.4778"/>
@@ -1349,63 +1369,57 @@
   <point lat="39.5316" lng="-79.4833"/>
   <point lat="39.7214" lng="-79.4772"/>
 </state>
-<state name ="Maine" abb="ME" lng="-69.171386" lat="45.274886">
-  <point lat="45.3425" lng="-71.0129"/>
-  <point lat="45.3328" lng="-70.9525"/>
-  <point lat="45.2294" lng="-70.8618"/>
-  <point lat="45.3917" lng="-70.8247"/>
-  <point lat="45.4274" lng="-70.7808"/>
-  <point lat="45.3830" lng="-70.6380"/>
-  <point lat="45.5092" lng="-70.7190"/>
-  <point lat="45.6544" lng="-70.5721"/>
-  <point lat="45.7292" lng="-70.3894"/>
-  <point lat="45.7924" lng="-70.4169"/>
-  <point lat="45.9368" lng="-70.2493"/>
-  <point lat="45.9597" lng="-70.3098"/>
-  <point lat="46.0923" lng="-70.2946"/>
-  <point lat="46.0989" lng="-70.2589"/>
-  <point lat="46.1342" lng="-70.2466"/>
-  <point lat="46.1903" lng="-70.2905"/>
-  <point lat="46.2710" lng="-70.2466"/>
-  <point lat="46.3270" lng="-70.2040"/>
-  <point lat="46.4151" lng="-70.0571"/>
-  <point lat="46.6956" lng="-69.9994"/>
-  <point lat="47.4550" lng="-69.2303"/>
-  <point lat="47.4132" lng="-69.0381"/>
-  <point lat="47.2578" lng="-69.0504"/>
-  <point lat="47.1748" lng="-68.8843"/>
-  <point lat="47.2643" lng="-68.6206"/>
-  <point lat="47.3546" lng="-68.3350"/>
-  <point lat="47.3165" lng="-68.1564"/>
-  <point lat="47.1038" lng="-67.8804"/>
-  <point lat="47.0664" lng="-67.7898"/>
-  <point lat="45.9359" lng="-67.7802"/>
-  <point lat="45.9177" lng="-67.7527"/>
-  <point lat="45.7599" lng="-67.8090"/>
-  <point lat="45.6208" lng="-67.6524"/>
-  <point lat="45.5987" lng="-67.4533"/>
-  <point lat="45.5044" lng="-67.4176"/>
-  <point lat="45.4823" lng="-67.5014"/>
-  <point lat="45.3714" lng="-67.4231"/>
-  <point lat="45.2768" lng="-67.4863"/>
-  <point lat="45.1297" lng="-67.3434"/>
-  <point lat="45.1830" lng="-67.2487"/>
-  <point lat="45.1230" lng="-67.1223"/>
-  <point lat="44.8315" lng="-66.9672"/>
-  <point lat="44.7409" lng="-66.8628"/>
-  <point lat="44.4945" lng="-67.3105"/>
-  <point lat="44.3268" lng="-67.9051"/>
-  <point lat="43.8702" lng="-68.6673"/>
-  <point lat="43.7274" lng="-68.8431"/>
-  <point lat="43.6639" lng="-69.7137"/>
-  <point lat="43.5625" lng="-70.0818"/>
-  <point lat="42.9182" lng="-70.5569"/>
-  <point lat="43.0649" lng="-70.7108"/>
-  <point lat="43.1391" lng="-70.8302"/>
-  <point lat="43.2292" lng="-70.8179"/>
-  <point lat="43.3631" lng="-70.9799"/>
-  <point lat="43.5675" lng="-70.9717"/>
-  <point lat="45.3029" lng="-71.0829"/>
+<state name ="Massachusetts" abb="MA" lng="-72.279236" lat="42.407235">
+ <point lat="42.0003" lng="-72.7789"/>
+  <point lat="42.0330" lng="-72.7405"/>
+  <point lat="42.0330" lng="-72.3779"/>
+  <point lat="42.0228" lng="-71.7984"/>
+  <point lat="42.0085" lng="-71.8011"/>
+  <point lat="42.0197" lng="-71.3850"/>
+  <point lat="41.8961" lng="-71.3837"/>
+  <point lat="41.8982" lng="-71.3411"/>
+  <point lat="41.8358" lng="-71.3370"/>
+  <point lat="41.8245" lng="-71.3493"/>
+  <point lat="41.7816" lng="-71.3342"/>
+  <point lat="41.7529" lng="-71.2628"/>
+  <point lat="41.6719" lng="-71.1914"/>
+  <point lat="41.6616" lng="-71.1351"/>
+  <point lat="41.6124" lng="-71.1433"/>
+  <point lat="41.5939" lng="-71.1310"/>
+  <point lat="41.4973" lng="-71.1214"/>
+  <point lat="41.3149" lng="-71.0266"/>
+  <point lat="41.1590" lng="-70.8316"/>
+  <point lat="41.1662" lng="-69.9225"/>
+  <point lat="41.3201" lng="-69.7948"/>
+  <point lat="41.8133" lng="-69.7398"/>
+  <point lat="42.1939" lng="-70.0337"/>
+  <point lat="42.2173" lng="-70.5144"/>
+  <point lat="42.4133" lng="-70.6984"/>
+  <point lat="42.6420" lng="-70.3647"/>
+  <point lat="42.8286" lng="-70.4759"/>
+  <point lat="42.8760" lng="-70.6133"/>
+  <point lat="42.8619" lng="-70.8440"/>
+  <point lat="42.8890" lng="-70.9154"/>
+  <point lat="42.8075" lng="-71.0651"/>
+  <point lat="42.8226" lng="-71.1337"/>
+  <point lat="42.7873" lng="-71.1859"/>
+  <point lat="42.7369" lng="-71.1832"/>
+  <point lat="42.7470" lng="-71.2189"/>
+  <point lat="42.7400" lng="-71.2560"/>
+  <point lat="42.6986" lng="-71.2985"/>
+  <point lat="42.7127" lng="-71.9151"/>
+  <point lat="42.7309" lng="-72.5441"/>
+  <point lat="42.7450" lng="-73.2541"/>
+  <point lat="42.7460" lng="-73.2664"/>
+  <point lat="42.5460" lng="-73.3406"/>
+  <point lat="42.2671" lng="-73.4436"/>
+  <point lat="42.1349" lng="-73.4917"/>
+  <point lat="42.0880" lng="-73.5081"/>
+  <point lat="42.0483" lng="-73.4985"/>
+  <point lat="42.0452" lng="-73.1841"/>
+  <point lat="42.0371" lng="-72.8146"/>
+  <point lat="41.9962" lng="-72.8160"/>
+  <point lat="42.0024" lng="-72.7803"/>
 </state>
 <state name ="Michigan" abb="MI" lng="-84.683349" lat="43.580391">
  <point lat="48.3033" lng="-88.3713"/>
@@ -1615,73 +1629,6 @@
   <point lat="45.2961" lng="-96.4558"/>
   <point lat="43.5008" lng="-96.4531"/>
 </state>
-<state name ="Missouri" abb="MO" lng="-92.726074" lat="38.685510">
- <point lat="40.6181" lng="-91.7468"/>
-  <point lat="40.5597" lng="-91.6809"/>
-  <point lat="40.5472" lng="-91.6260"/>
-  <point lat="40.4658" lng="-91.5463"/>
-  <point lat="40.3675" lng="-91.4337"/>
-  <point lat="40.1663" lng="-91.5161"/>
-  <point lat="39.9866" lng="-91.4900"/>
-  <point lat="39.8634" lng="-91.4447"/>
-  <point lat="39.7283" lng="-91.3623"/>
-  <point lat="39.6861" lng="-91.3074"/>
-  <point lat="39.5464" lng="-91.1096"/>
-  <point lat="39.4022" lng="-90.9558"/>
-  <point lat="39.2450" lng="-90.7306"/>
-  <point lat="38.9893" lng="-90.6812"/>
-  <point lat="38.8697" lng="-90.5878"/>
-  <point lat="38.9722" lng="-90.4504"/>
-  <point lat="38.8868" lng="-90.1813"/>
-  <point lat="38.8269" lng="-90.1154"/>
-  <point lat="38.7155" lng="-90.1978"/>
-  <point lat="38.4149" lng="-90.3186"/>
-  <point lat="38.2597" lng="-90.3790"/>
-  <point lat="37.9572" lng="-89.9341"/>
-  <point lat="37.6925" lng="-89.5331"/>
-  <point lat="37.4007" lng="-89.4287"/>
-  <point lat="37.2784" lng="-89.5386"/>
-  <point lat="37.1734" lng="-89.4452"/>
-  <point lat="37.0859" lng="-89.3793"/>
-  <point lat="36.9938" lng="-89.2859"/>
-  <point lat="37.0311" lng="-89.1829"/>
-  <point lat="36.9839" lng="-89.1403"/>
-  <point lat="36.9466" lng="-89.1005"/>
-  <point lat="36.7884" lng="-89.1788"/>
-  <point lat="36.6288" lng="-89.2035"/>
-  <point lat="36.5449" lng="-89.2516"/>
-  <point lat="36.6188" lng="-89.3532"/>
-  <point lat="36.5538" lng="-89.4397"/>
-  <point lat="36.4942" lng="-89.5358"/>
-  <point lat="36.3594" lng="-89.5331"/>
-  <point lat="36.2509" lng="-89.5345"/>
-  <point lat="36.0891" lng="-89.6100"/>
-  <point lat="36.0002" lng="-89.7116"/>
-  <point lat="35.9958" lng="-90.3735"/>
-  <point lat="36.1223" lng="-90.2747"/>
-  <point lat="36.2886" lng="-90.0934"/>
-  <point lat="36.3903" lng="-90.0769"/>
-  <point lat="36.4213" lng="-90.1538"/>
-  <point lat="36.5008" lng="-90.1538"/>
-  <point lat="36.4975" lng="-94.6184"/>
-  <point lat="38.9722" lng="-94.6143"/>
-  <point lat="39.1982" lng="-94.6143"/>
-  <point lat="39.1684" lng="-94.7241"/>
-  <point lat="39.2790" lng="-94.8834"/>
-  <point lat="39.5612" lng="-95.1086"/>
-  <point lat="39.7283" lng="-94.8834"/>
-  <point lat="39.8296" lng="-94.8944"/>
-  <point lat="39.8845" lng="-94.9384"/>
-  <point lat="39.8971" lng="-95.0153"/>
-  <point lat="39.8718" lng="-95.0922"/>
-  <point lat="40.0066" lng="-95.3119"/>
-  <point lat="40.2460" lng="-95.4794"/>
-  <point lat="40.3256" lng="-95.6635"/>
-  <point lat="40.5879" lng="-95.7527"/>
-  <point lat="40.5795" lng="-94.3135"/>
-  <point lat="40.5962" lng="-92.5818"/>
-  <point lat="40.6140" lng="-91.7358"/>
-</state>
 <state name ="Mississippi" abb="MS" lng="-89.825683" lat="33.137551">
   <point lat="35.0041" lng="-90.3049"/>
   <point lat="35.0075" lng="-88.1955"/>
@@ -1767,6 +1714,73 @@
   <point lat="34.8476" lng="-90.3543"/>
   <point lat="34.8702" lng="-90.2911"/>
   <point lat="35.0041" lng="-90.3062"/>
+</state>
+<state name ="Missouri" abb="MO" lng="-92.726074" lat="38.685510">
+ <point lat="40.6181" lng="-91.7468"/>
+  <point lat="40.5597" lng="-91.6809"/>
+  <point lat="40.5472" lng="-91.6260"/>
+  <point lat="40.4658" lng="-91.5463"/>
+  <point lat="40.3675" lng="-91.4337"/>
+  <point lat="40.1663" lng="-91.5161"/>
+  <point lat="39.9866" lng="-91.4900"/>
+  <point lat="39.8634" lng="-91.4447"/>
+  <point lat="39.7283" lng="-91.3623"/>
+  <point lat="39.6861" lng="-91.3074"/>
+  <point lat="39.5464" lng="-91.1096"/>
+  <point lat="39.4022" lng="-90.9558"/>
+  <point lat="39.2450" lng="-90.7306"/>
+  <point lat="38.9893" lng="-90.6812"/>
+  <point lat="38.8697" lng="-90.5878"/>
+  <point lat="38.9722" lng="-90.4504"/>
+  <point lat="38.8868" lng="-90.1813"/>
+  <point lat="38.8269" lng="-90.1154"/>
+  <point lat="38.7155" lng="-90.1978"/>
+  <point lat="38.4149" lng="-90.3186"/>
+  <point lat="38.2597" lng="-90.3790"/>
+  <point lat="37.9572" lng="-89.9341"/>
+  <point lat="37.6925" lng="-89.5331"/>
+  <point lat="37.4007" lng="-89.4287"/>
+  <point lat="37.2784" lng="-89.5386"/>
+  <point lat="37.1734" lng="-89.4452"/>
+  <point lat="37.0859" lng="-89.3793"/>
+  <point lat="36.9938" lng="-89.2859"/>
+  <point lat="37.0311" lng="-89.1829"/>
+  <point lat="36.9839" lng="-89.1403"/>
+  <point lat="36.9466" lng="-89.1005"/>
+  <point lat="36.7884" lng="-89.1788"/>
+  <point lat="36.6288" lng="-89.2035"/>
+  <point lat="36.5449" lng="-89.2516"/>
+  <point lat="36.6188" lng="-89.3532"/>
+  <point lat="36.5538" lng="-89.4397"/>
+  <point lat="36.4942" lng="-89.5358"/>
+  <point lat="36.3594" lng="-89.5331"/>
+  <point lat="36.2509" lng="-89.5345"/>
+  <point lat="36.0891" lng="-89.6100"/>
+  <point lat="36.0002" lng="-89.7116"/>
+  <point lat="35.9958" lng="-90.3735"/>
+  <point lat="36.1223" lng="-90.2747"/>
+  <point lat="36.2886" lng="-90.0934"/>
+  <point lat="36.3903" lng="-90.0769"/>
+  <point lat="36.4213" lng="-90.1538"/>
+  <point lat="36.5008" lng="-90.1538"/>
+  <point lat="36.4975" lng="-94.6184"/>
+  <point lat="38.9722" lng="-94.6143"/>
+  <point lat="39.1982" lng="-94.6143"/>
+  <point lat="39.1684" lng="-94.7241"/>
+  <point lat="39.2790" lng="-94.8834"/>
+  <point lat="39.5612" lng="-95.1086"/>
+  <point lat="39.7283" lng="-94.8834"/>
+  <point lat="39.8296" lng="-94.8944"/>
+  <point lat="39.8845" lng="-94.9384"/>
+  <point lat="39.8971" lng="-95.0153"/>
+  <point lat="39.8718" lng="-95.0922"/>
+  <point lat="40.0066" lng="-95.3119"/>
+  <point lat="40.2460" lng="-95.4794"/>
+  <point lat="40.3256" lng="-95.6635"/>
+  <point lat="40.5879" lng="-95.7527"/>
+  <point lat="40.5795" lng="-94.3135"/>
+  <point lat="40.5962" lng="-92.5818"/>
+  <point lat="40.6140" lng="-91.7358"/>
 </state>
 <state name ="Montana" abb="MN" lng="-109.425293" lat="47.279229">
   <point lat="44.4750" lng="-111.0512"/>
@@ -2313,10 +2327,6 @@
   <point lat="48.9982" lng="-97.2331"/>
   <point lat="48.9946" lng="-104.0501"/>
 </state>
-
-
-
-
 <state name ="Ohio" abb="OH" lng="-82.706543" lat="40.713956">
   <point lat="38.4385" lng="-82.3425"/>
   <point lat="38.5707" lng="-82.2917"/>
@@ -3178,7 +3188,6 @@
   <point lat="36.5957" lng="-83.2654"/>
   <point lat="36.6023" lng="-83.6746"/>
 </state>
-
 <state name ="Washington" abb="WA" lng="-120.675293" lat="47.576526">
   <point lat="49.0023" lng="-123.3208"/>
   <point lat="49.0027" lng="-123.0338"/>
@@ -3476,18 +3485,5 @@
   <point lat="40.9986" lng="-111.0457"/>
   <point lat="41.0006" lng="-104.0556"/>
 </state>
-<state name ="District of Columbia" abb="D.C." lng="-77.033418" lat="38.905985">
-  <point lat="38.8921" lng="-76.9112"/>
-  <point lat="38.7991" lng="-77.0320"/>
-  <point lat="38.9402" lng="-77.1144"/>
-  <point lat="38.9968" lng="-77.0430"/>
-  <point lat="38.8996" lng="-76.9167"/>
-  <point lat="33.7243" lng="-74.8843"/>
-  <point lat="33.7243" lng="-72.6870"/>
-  <point lat="32.3243" lng="-72.6870"/>
-  <point lat="32.3985" lng="-76.7300"/>
-  <point lat="33.7152" lng="-76.6957"/>
-  <point lat="33.7243" lng="-74.9489"/>
-  <point lat="38.8921" lng="-76.9112"/>
-</state>  
+
 </states>

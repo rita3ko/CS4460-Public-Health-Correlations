@@ -78,6 +78,7 @@ public class State{
   
   public State draw(){
     State ret = null;
+    drawName();
     if(filterOn==1){
       fill(gray);
       noStroke();
@@ -90,9 +91,9 @@ public class State{
         stroke(stateColor); //work on this
       }
       else if (highlight){
-        fill(stateColor);
+        fill(brushingColor);
         strokeWeight(4);
-        stroke(color(10,10,100)); //work on this
+        stroke(color(10,10,100)); //work on 
         ret = this;
       }
       else{
@@ -102,13 +103,8 @@ public class State{
       
     }
     
-    polygon.draw();
-      drawName();
-    
-    if (ret != null) drawStateData(ret, mouseX, mouseY);
-
-      
-
+    polygon.draw(); 
+    drawName();
     return ret;
   }
   
@@ -136,18 +132,7 @@ public class State{
   public int getCenterY(){
      return centerY;
   }
-  
-  public void drawStateData(State st, int x, int y) {
-    float wid = 300, hig = 300;
-    fill(white);
-    stroke(black);
-    rect(x,y,wid,hig);
-    fill(black);
-    textAlign(CENTER, CENTER);
-    textSize(20);
-    text(st.name, x + wid / 2, y + hig / 10);
-    text("Population:      " + st.population, x + wid / 2, y + hig * 2 / 10);
-  }
+
 }
 
 

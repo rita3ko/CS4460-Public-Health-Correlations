@@ -1,9 +1,7 @@
 import java.awt.Polygon; 
 
 public class Map{
-  
- 
-  
+
   private ArrayList<State> stateList = new ArrayList<State>(50);
   // not exactly x and y
   
@@ -12,7 +10,7 @@ public class Map{
   public Map(){ 
     
     xml = loadXML("statesCoord.xml");
-    JSONArray stateData = loadJSONArray("map.json");
+    //JSONArray stateData = loadJSONArray("map.json");
     
     XML[] state = xml.getChildren("state");
     
@@ -21,14 +19,20 @@ public class Map{
     int scaleX = 12;
     int scaleY = -15;
     
-    //make Hawaii
-    makeState(state, stateData, 0, 2260, 750, 13, -13);
-    
-    //make Alaska
-     makeState(state, stateData, 1, 700, 850, 4, -6);
-    
-    for(int i=2; i<state.length; i++){ //draw Hawaii and Alaska separately
-      makeState(state, stateData, i, relX, relY, scaleX, scaleY);
+ 
+    //Hawaii and Alaska are on a different scale
+    for(int i=0; i<state.length; i++){
+      if(i==1){
+        //make Alaska
+        makeState(state, 1, 700, 850, 4, -6);
+      }
+      else if(i==11){
+        //make Hawaii
+         makeState(state, i, 2260, 750, 13, -13);
+      }
+      else{
+        makeState(state, i, relX, relY, scaleX, scaleY);
+      }
     }
 
      
@@ -37,7 +41,10 @@ public class Map{
     }  
   }
   
-  public void makeState(XML[] state, JSONArray stateData, int i, int relX, int relY, int scaleX, int scaleY){
+  /*
+  * Called to make a state
+  */
+  public void makeState(XML[] state, int i, int relX, int relY, int scaleX, int scaleY){
       
       XML[] point = state[i].getChildren("point");
       int pointCount = point.length;
@@ -80,6 +87,9 @@ public class Map{
       stateList.add(aState);
   }
   
+  /*
+  * Deals with brushing of state. Will need to be implemented later
+  */
   public void brush(State state){
     for (State aState: stateList){
       aState.setBrushing(false);
@@ -88,7 +98,6 @@ public class Map{
     if (index!=-1){
       State myState = stateList.get(index);
       myState.setBrushing(true);
-
     }
   }
   
@@ -96,44 +105,90 @@ public class Map{
   public void setView(){
   }
   
+  /*
+  * Resets so no states are highlighted
+  * Called to prevent multiple states from being
+  * highlighted at once.
+  */
   public void reset(){
     for(State st: stateList){
       st.setHighlight(false);
     }
   }
   
-  public void mouseMoved(){
+  /*
+  * If mouse is on the map, it check if
+  * the mouse is on any state. If so,
+  * it redraws the map.
+  * @return retMe State hovered or null
+  */
+  public State mouseMoved(){
     reset();
+    State retMe = null;
     for(State st: stateList){
       if (st.contains(mouseX, mouseY)){
+        retMe = st;
         break;
       }
     }
     drawMap();
+    
+    return retMe;
   }
   
-  public void mousePressed(){
+  /*
+  * What happens if map is pressed
+  * State should be highlighted on hover.
+  * If user presses mouse, function will just
+  * check if there's any states highlighted.
+  * @return State state pressed or null
+  */
+  
+  public State mousePressed(){
     for(State st: stateList){
       if (st.highlight){
-
-        //return st;
+        return st;
       }
     }
-   // return null;
+    return null;
   }
   
+  State currentHighlight = null;
+  /*
+  * Goes through every state and draws it
+  * If the state is highlighted, it will return itself
+  * If that's the case "highlight" will be that state.
+  * Draws state data box after the entire map has been
+  * drawn.
+  */
  public void drawMap(){
-
-    State selected = null;
-    
+   State highlighted = null;
     for (State st: stateList){
-      State oneState = st.draw();
-      if (oneState!=null){      //???
-        selected = oneState;
+      if(st.draw()!=null){
+        highlighted = st;
       }
+    } 
+    if(highlighted!=null ){
+      drawStateData(highlighted, mouseX, mouseY);
+      //currentHighlight = highlighted;
     }
-
-    
+  }
+  
+  /*
+  * Draws box with state's data. Centered and slightly under
+  * the mouse.
+  */
+  public void drawStateData(State st, int x, int y) {
+    int wid = 180, hig = 100;
+    int marginTop = 20;
+    fill(lightGray);
+    noStroke();
+    rect(x-wid/2,y + marginTop ,wid,hig);
+     fill(black);
+    textAlign(CENTER, CENTER);
+    textSize(14);
+    text(st.name, x , marginTop + y + hig *2 / 10);
+    text("Population:      " + st.population, x , marginTop +  y + hig * 4 / 10);
   }
   
   
