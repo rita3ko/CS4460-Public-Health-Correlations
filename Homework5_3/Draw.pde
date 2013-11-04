@@ -9,7 +9,7 @@ public class Draw{
   * Draws the gray bar with the title
   */
   public void title(){
-    fill(34);
+    fill(darkGray);
     noStroke();
     rect(0,0,width,100);
     fill(background);

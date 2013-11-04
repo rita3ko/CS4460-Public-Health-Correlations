@@ -1,37 +1,35 @@
 
 public class Sidebar {
-  RadioButton r;
   float x = widthW*.7;
   float y = heightH*.15;
   int myColorBackground = color(white);
 
   public Sidebar() {
-   r = cp5.addRadioButton("radioButton");
-   r.setPosition(round(x+20),round(y+20));
-   r.addItem("Population",1);
-   r.addItem("Health Expenditures",2);
-   r.addItem("Percent Uninsured",3);
-   r.addItem("Percent Insured",4);
-   r.addItem("Median Household Income",5);
-   r.setSpacingRow(20);
+    Dropdown vars = new Dropdown("Variables", x + 120, y + 100, 216, 500);
+    
+    // Add Items
+    for (int i = 0; i < typeName.length; i++) 
+      vars.addItem(typeName[i],i);
+    vars.setIndex(0);
    }
 
   public void drawSidebar() {
-    stroke(black);
+    // Creates the panel
+    fill(darkGray);
     strokeWeight(3);
-    fill(white);
+    noStroke();
     rect(x, y, widthW*.3, heightH*.7);
-    r.show();
-  }
-
-
-  void controlEvent(ControlEvent theEvent) {
-    if (theEvent.isGroup() && theEvent.name().equals("radio")) {
-      println(theEvent.arrayValue());
-    }
-  }
-  void radioButton(int a) {
-    println("a radio Button event: "+a);
+    
+    // Creates the title
+    fill(white);
+    textFont(font48, 48);
+    textAlign(CENTER);
+    text("Control Center", x + widthW*.15, y*1.4);  
+    
+    // Creates the label
+    textSize(16);
+    textAlign(LEFT);
+    text("Gradient:", x + 26, y + 97);
   }
 }
 

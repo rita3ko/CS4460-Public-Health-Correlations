@@ -23,7 +23,7 @@ ControlP5 cp5;
 XlsReader reader;
       
 color[] typeColor;
-color blue, green, purple, orange, magenta, red, lightGray, black, white;
+color blue, green, purple, orange, magenta, red, lightGray, black, white, darkGray;
 
 
 
@@ -43,7 +43,8 @@ void setup(){
   orange = color(9,100,100);
   magenta = color(90,80,100);
   red = color(100,83,100);
-  lightGray = color(0,9,79);
+  lightGray = color(80);
+  darkGray = color(34);
   black = color(0);
   white = color(100);
   color[] typeColorTemp = {blue,green,purple,orange, magenta,red};
@@ -52,10 +53,10 @@ void setup(){
 
   
   // --- Canvas Setup ----
-  heightH = 900;
+  heightH = 760;
   widthW = 1200;
   size(widthW,heightH);
-  background = color(0,0,100);
+  background = white;
   background(background);
   noStroke();
   
