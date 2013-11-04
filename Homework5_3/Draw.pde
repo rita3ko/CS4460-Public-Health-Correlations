@@ -25,8 +25,7 @@ public class Draw{
     background(background);
     title();
     sidebar.drawSidebar();
-    map.drawMap();
-    
+    map.drawMap();    
   }
   
   /* 

@@ -93,7 +93,7 @@ public class State{
       else if (highlight){
         fill(brushingColor);
         strokeWeight(4);
-        stroke(color(10,10,100)); //work on 
+        stroke(black); //work on 
         ret = this;
       }
       else{

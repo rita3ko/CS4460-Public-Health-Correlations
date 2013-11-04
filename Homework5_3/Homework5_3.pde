@@ -6,10 +6,7 @@ public Sidebar sidebar;
 
 public static color background;
 
-public PFont font48;
-public PFont font36;
-public PFont font24;
-public PFont font14;
+public PFont font48, font36, font24, font14;
 
 public static Draw draw;
 

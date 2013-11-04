@@ -1,6 +1,8 @@
 import java.awt.Polygon; 
 
 public class Map{
+  State highlighted = null;
+  State clicked = null;
 
   private ArrayList<State> stateList = new ArrayList<State>(50);
   // not exactly x and y
@@ -113,6 +115,7 @@ public class Map{
   public void reset(){
     for(State st: stateList){
       st.setHighlight(false);
+      highlighted = null;
     }
   }
   
@@ -145,12 +148,18 @@ public class Map{
   */
   
   public State mousePressed(){
+    reset();
+    State retMe = null;
     for(State st: stateList){
-      if (st.highlight){
-        return st;
+      if (st.contains(mouseX, mouseY)){
+        clicked = st;
+        retMe = st;
+        break;
       }
     }
-    return null;
+    drawMap();
+    
+    return retMe;
   }
   
   State currentHighlight = null;
@@ -162,17 +171,16 @@ public class Map{
   * drawn.
   */
  public void drawMap(){
-   State highlighted = null;
     for (State st: stateList){
       if(st.draw()!=null){
         highlighted = st;
       }
     } 
-    if(highlighted!=null ){
+    if(highlighted!=null){
       drawStateData(highlighted, mouseX, mouseY);
       //currentHighlight = highlighted;
     }
-  }
+ }
   
   /*
   * Draws box with state's data. Centered and slightly under
