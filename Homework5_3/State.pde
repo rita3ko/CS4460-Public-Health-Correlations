@@ -59,9 +59,29 @@ public class State{
   
   public color createColor(){
     colorMode(RGB, 255);
-    int r = (135+((int)(.0000036*this.population)));
-    int g = 135+(int)(.0000036*this.population);
+    int r = (125+((int)(.0000036*this.population)));
+    int g = 125+(int)(.0000036*this.population);
     int b = 0;
+    color c1 = color(r, g, b);
+    return c1;
+  }
+  /*public color createUninsuredColor(){
+    colorMode(RGB, 255);
+    return color((int)(noInsCoverage*1.35)+120, 0, 0);
+  }*/
+  /*
+  public color createInsuredColor(){
+    
+    colorMode(RGB, 255);
+    return color(0, (int)(insCoverage*1.2)+135, (int)(insCoverage*.66)+74);
+  
+  }*/
+  public color createHealthExpColor(){
+    colorMode(RGB, 255);
+    System.out.println(healthExp);
+    int r = (70+((int)(.046*this.healthExp)));
+    int g = 0;
+    int b = 71+(int)(.0498*this.healthExp);
     color c1 = color(r, g, b);
     return c1;
   }
