@@ -58,8 +58,14 @@ public class State{
   }
   
   public color createColor(){
-    return color(random(100), random(80)+20, random(10)+90); //random(10)+90
+    colorMode(RGB, 255);
+    int r = (135+((int)(.0000036*this.population)));
+    int g = 135+(int)(.0000036*this.population);
+    int b = 0;
+    color c1 = color(r, g, b);
+    return c1;
   }
+  
   
   public void setHighlight(boolean tf){
     highlight = tf;
